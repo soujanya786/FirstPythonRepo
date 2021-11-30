@@ -9,6 +9,7 @@ def main():
     #generating a secret number for the computer
     secret_number = random.randint(1,99)
     print("I am thinking of a number between 1 and 99")
+    #user enters the input
     user_guess = int(input("Enter your guess to know my secret number:"))
     while user_guess != secret_number:
         if user_guess < secret_number:

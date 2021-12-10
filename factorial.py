@@ -1,4 +1,12 @@
-"""This function is to define factorial of a user input number"""
+"""This function is to define factorial of a user input number
+Doctests:
+>>>factorial(3)
+6
+>>>factorial(4)
+24
+>>>factorial(0)
+1
+"""
 
 
 def main():
